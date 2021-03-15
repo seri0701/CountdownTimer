@@ -6,7 +6,7 @@ const output = document.getElementById("count_down_timer");
 function displayTime(diff) {
   if (diff > 0) {
     output.innerHTML =
-      "LTわいわい会まで " + d + "日" + h + "時間" + m + "分" + s + "秒";
+      "開始まで " + d + "日" + h + "時間" + m + "分" + s + "秒";
   } else {
     output.innerHTML = "始まります";
   }
