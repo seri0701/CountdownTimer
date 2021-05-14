@@ -1,5 +1,5 @@
 //カウントダウンの終了日時を指定
-const EndTime = new Date("2021/4/17 19:59:59");
+const EndTime = new Date("2021/6/19 19:59:59");
 //タイマーを表示する要素
 const output = document.getElementById("count_down_timer");
 // タイマーを表示させる関数
